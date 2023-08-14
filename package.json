@@ -1,0 +1,38 @@
+{
+  "name": "vue3-workshop-template",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "watch": "vite build --watch",
+    "preview": "vite preview",
+    "push": "git push && npm publish"
+  },
+  "type": "module",
+  "main": "dist/MyLibrary.cjs.js",
+  "module": "dist/MyLibrary.es.js",
+  "unpkg": "dist/MyLibrary.iife.js",
+  "files": [
+    "dist"
+  ],
+
+  "author": "You github Name <> ()",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "keywords": [],
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.5"
+  }
+}
